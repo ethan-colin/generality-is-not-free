@@ -439,3 +439,7 @@ The experiments were run with Python 3.12. For the most reproducible setup, use 
 
 To re-emphasize: Segal et al. (2020) report using the dataset-specific official evaluation scripts for DROP and QUOREF. In this repository, both T5 datasets are scored through the official DROP evaluation implementation, with QUOREF converted to a DROP-style representation first. This protocol difference should be kept in mind when comparing QUOREF scores directly with the published Segal et al. baselines.
 We re-provide the link of the official evaluator again ( even though we did so above ), for the sake of completeness: https://github.com/allenai/allennlp-reading-comprehension/blob/master/allennlp_rc/eval/drop_eval.py
+
+
+### About the Google Colab file
+The repository also includes generality_is_not_free.ipynb, which was used during development and experimentation. The notebook is somewhat exploratory and is not intended to be a complete or fully polished reproduction pipeline, but it documents much of the workflow we often used and may be useful for following the main data preparation, training, evaluation, and analysis steps interactively in Google Colab.
